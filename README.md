@@ -1,14 +1,10 @@
-# Sample Hardhat Project
+# Uniswap V2 Interaction Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+- This project demonstrates how to interact with the Uniswap V2 protocol using Hardhat and Ethers.js. It includes scripts for swapping tokens and adding liquidity to Uniswap V2 pairs.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
-# Mainnet-forking
+
+
+
+![TestCase](./script.png)
+![Deployed](./scripts.png)
