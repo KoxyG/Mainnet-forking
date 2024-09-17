@@ -9,7 +9,8 @@ interface IUniswapV2Router {
         address to,
         uint deadline
     ) external returns (uint[] memory amounts);
-    
+   
+   // this
     function swapTokensForExactTokens(
         uint amountOut,
         uint amountInMax,
@@ -24,6 +25,7 @@ interface IUniswapV2Router {
         address to, uint deadline
     ) external returns (uint[] memory amounts);
 
+    //done
     function addLiquidity(
         address tokenA,
         address tokenB,
@@ -34,4 +36,15 @@ interface IUniswapV2Router {
         address to,
         uint deadline
     ) external returns (uint amountA, uint amountB, uint liquidity);
+
+    function removeLiquidity(
+        address tokenA,
+        address tokenB,
+        uint liquidity,
+        uint amountAMin,
+        uint amountBMin,
+        address to,
+        uint deadline
+    ) external returns (uint amountA, uint amountB);
+     
 }
